@@ -1,0 +1,6 @@
+jenkins:
+  restart: always
+  image: jenkins
+  ports:
+    - 32769:8080
+    - 32768:50000
